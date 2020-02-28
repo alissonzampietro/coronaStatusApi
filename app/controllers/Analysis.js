@@ -1,7 +1,8 @@
-const process = async (res,res) => {
-
+const run = async (res,res) => {
+    res.json({'alisson'});
+    console.log('funcionou');
 }
 
-export {
-    process
-}
+module.exports = {
+    run
+};
